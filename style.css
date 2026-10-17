@@ -1,0 +1,13 @@
+/* 오시오디 안내 페이지. 앱과 같은 종이 노트의 색을 쓴다. */
+:root { --paper: #f6eee2; --ink: #1c1c19; --ink-soft: #4a4844; --line: #cdc6bb; --coral: #f27356; --note: #f4d56a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; line-height: 1.75; }
+main { max-width: 680px; margin: 0 auto; padding: 56px 24px 96px; }
+h1 { font-size: 30px; margin: 0 0 8px; display: inline-block; border-bottom: 6px solid var(--coral); padding-bottom: 2px; }
+h2 { font-size: 19px; margin: 40px 0 8px; }
+p, li { font-size: 16px; color: var(--ink-soft); }
+ul { padding-left: 20px; }
+a { color: var(--ink); }
+.note { display: inline-block; background: var(--note); padding: 6px 14px; transform: rotate(-2deg); margin: 24px 0 8px; color: var(--ink); font-weight: 600; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 24px; }
+footer { font-size: 14px; color: var(--ink-soft); }
